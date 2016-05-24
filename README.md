@@ -22,6 +22,7 @@ Verificações feitas
 - Termo "nodo" (no contexto de grafos, é melhor usar "nó" ou "vértice";
   "nodo" é usado principalmente em contextos médicos)
 - Teorema/lema/corolário/tabela/figura escritos sem letra inicial maiúscula
+  antes de espaços rígidos (que devem preceder comandos '\ref')
 
 
 Instalação

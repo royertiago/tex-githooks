@@ -10,7 +10,7 @@ Considere substituir, por exemplo, "[p. 15]" por "[p.~15]".'
 ['\(^\|[^~]\)\\ref']='Considere adicionar espaços rígidos (~) antes de comandos "\ref".'
 ['\<nodo\>']='Use "nó" ou "vértice" em vez de "nodo" no contexto de grafos.'
 ['\<retorn']='Traduza "return" para "devolve" em vez de "retorna".'
-['\<\(teorema\|lema\|corolário\|tabela\|figura\)\>']='Capitalize Teorema, Lema etc.'
+['\<\(teorema\|lema\|corolário\|tabela\|figura\)~']='Capitalize: Teorema, Lema etc.'
 )
 
 
