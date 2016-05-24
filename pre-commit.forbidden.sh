@@ -11,6 +11,7 @@ Considere substituir, por exemplo, "[p. 15]" por "[p.~15]".'
 ['\<nodo\>']='Use "nó" ou "vértice" em vez de "nodo" no contexto de grafos.'
 ['\<retorn']='Traduza "return" para "devolve" em vez de "retorna".'
 ['\<\(teorema\|lema\|corolário\|tabela\|figura\)~']='Capitalize: Teorema, Lema etc.'
+['\<assumi']='Traduza "assume" para "supor" ou "presumir" em vez de "assumir".'
 )
 
 

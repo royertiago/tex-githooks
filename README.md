@@ -19,6 +19,7 @@ Verificações feitas
 - Uso do verbo "ir", como em "irá computar" (é melhor escrever "computará" neste caso)
 - Existência de espaços em branco no final da linha
 - Verbo "retornar" (a tradução correta de "return" é "devolver")
+- Verbo "assumir" (a tradução correta de "assume" é "supor", ou "presumir")
 - Termo "nodo" (no contexto de grafos, é melhor usar "nó" ou "vértice";
   "nodo" é usado principalmente em contextos médicos)
 - Teorema/lema/corolário/tabela/figura escritos sem letra inicial maiúscula
