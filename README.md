@@ -18,6 +18,10 @@ Verificações feitas
 - Expressões "é as" e "são a"
 - Uso do verbo "ir", como em "irá computar" (é melhor escrever "computará" neste caso)
 - Existência de espaços em branco no final da linha
+- Verbo "retornar" (a tradução correta de "return" é "devolver")
+- Termo "nodo" (no contexto de grafos, é melhor usar "nó" ou "vértice";
+  "nodo" é usado principalmente em contextos médicos)
+- Teorema/lema/corolário/tabela/figura escritos sem letra inicial maiúscula
 
 
 Instalação
