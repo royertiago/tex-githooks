@@ -3,8 +3,8 @@
 
 # Forbidden é um mapa regex - mensagem, que é usado no laço abaixo.
 declare -A forbidden=(
-['\<é [ao]s\>\|\<são [ao]\>']='Possível erro de concordância de número.'
-['[Ii]rá\|[Ii]remos\|[Ii]rão']='Troque ex. "irá computar" por "computará".'
+['\<\(é [ao]s\>\|\<são [ao]\)\>']='Possível erro de concordância de número.'
+['\<\([Ii]rá\|[Ii]remos\|[Ii]rão\)\>']='Troque ex. "irá computar" por "computará".'
 ['\[p. [0-9]*\(\]\|,[^]]*]\)']='Existem números de página, em comandos "\cite", sem ties.
 Considere substituir, por exemplo, "[p. 15]" por "[p.~15]".'
 ['\(^\|[^~]\)\\ref']='Considere adicionar espaços rígidos (~) antes de comandos "\ref".'
