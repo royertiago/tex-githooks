@@ -7,9 +7,6 @@ dir=$(dirname $(readlink -f $0))
 error=0
 source "$dir/pre-commit.utilities.sh"
 source "$dir/pre-commit.whitespace.sh"
-source "$dir/pre-commit.citeties.sh"
-source "$dir/pre-commit.refties.sh"
-source "$dir/pre-commit.verbo-ir.sh"
 source "$dir/pre-commit.aspell.sh"
 source "$dir/pre-commit.forbidden.sh"
 exit $error
