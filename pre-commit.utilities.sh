@@ -7,13 +7,11 @@
 toplevel=$(git rev-parse --show-toplevel)/
 
 # $modified_files
-# Lista de todos os arquivos modificados neste commit,
-# separados por nova-linha ('\n').
-#
-# A lista conterá apenas nomes absolutos, prefixados por toplevel.
-modified_files=$(git diff --name-only --cached |
-    sed "s|.*|$toplevel&|"
-)
+# Vetor com todos os arquivos modificados neste commit.
+declare -a modified_files=()
+while read -r line; do
+    modified_files+=("$toplevel$line") # Não pode executar num subshell
+done < <(git diff --name-only --cached)
 
 # print_line filename lines
 # Imprime as linhas especificadas, com o nome do arquivo prefixado em roxo.

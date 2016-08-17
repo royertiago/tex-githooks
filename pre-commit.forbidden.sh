@@ -33,7 +33,7 @@ show_forbidden_message() {
 
 for regex in "${!forbidden[@]}"; do
     set_forbidden_message "${forbidden[$regex]}"
-    for file in $modified_files; do
+    for file in "${modified_files[@]}"; do
         offending_lines=$(added_lines "$file" |
             grep --color=always "$regex"
         )

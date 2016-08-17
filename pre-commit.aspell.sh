@@ -20,8 +20,8 @@ words_to_regex() {
     echo $word_list | sed 's#.*#\\<\\(&\\)\\>#;s# #\\\|#g'
 }
 
-for file in $modified_files; do
-    wrong_words=$(aspell --lang=pt-br --mode=tex --list <<< "$(added_lines $file)")
+for file in "${modified_files[@]}"; do
+    wrong_words=$(aspell --lang=pt-br --mode=tex --list <<< "$(added_lines "$file")")
     word_regex=$(words_to_regex "$wrong_words")
 
     offending_lines=$(added_lines "$file" |

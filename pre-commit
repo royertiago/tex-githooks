@@ -2,7 +2,7 @@
 # Script que detecta erros de estilo
 # antes de serem submetidos em definitivo ao repositório.
 
-dir=$(dirname $(readlink -f $0))
+dir=$(dirname "$(readlink -f $0)")
 
 error=0
 source "$dir/pre-commit.utilities.sh"
